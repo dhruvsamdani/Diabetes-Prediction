@@ -14,11 +14,15 @@ Logistic Regressions work by putting an equation through a sigmoid function. To 
 
 **Sigmoid Function:**
 
-$\large \frac{\large 1}{\large 1 + e^{-z}}$, where $\large z$ is the equation based on the data that takes the form $\large a + b_1x + b_2x + ... + b_nx$
+<img src="https://latex.codecogs.com/svg.image?\large&space;\frac{\large&space;1}{\large&space;1&space;&plus;&space;e^{-z}}" title="\large \frac{\large 1}{\large 1 + e^{-z}}" />
+
+where z is the equation based on the data that takes the form
+
+<img src="https://latex.codecogs.com/svg.image?\large&space;a&space;&plus;&space;b_1x&space;&plus;&space;b_2x&space;&plus;&space;...&space;&plus;&space;b_nx" title="\large a + b_1x + b_2x + ... + b_nx" />
 
 **Loss Function:**
 
-$\large -\frac{\large 1}{\large n}\sum_{i=1}^{n} {y_i\log{P(x_i)} + (1-y_i)\log{(1-P(x_i))}}$
+<img src="https://latex.codecogs.com/svg.image?\large&space;-\frac{\large&space;1}{\large&space;n}\sum_{i=1}^{n}&space;{y_i\log{P(x_i)}&space;&plus;&space;(1-y_i)\log{(1-P(x_i))}}" title="\large -\frac{\large 1}{\large n}\sum_{i=1}^{n} {y_i\log{P(x_i)} + (1-y_i)\log{(1-P(x_i))}}" />
 
 ## Data:
 
