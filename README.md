@@ -1,5 +1,7 @@
 # Diabetes-Prediction
 
+### Logistic Regression is a work in progress
+
 Diabetes Prediction uses a Random Forest algorithim and a Logistic Regression to predict if someone has diabetes based on a set of data.
 
 ## How it works
